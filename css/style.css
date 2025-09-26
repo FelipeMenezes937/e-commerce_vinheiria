@@ -114,7 +114,7 @@ footer {
   border-top: 2px solid #800020;
   color: #111;
   text-align: center;
-  padding: 0.025rem 0.025rem;
+  padding: 0.0075rem 0.0075rem;
   margin-top: 2rem;
   font-size: 0.9rem;
   position: fixed;
@@ -161,4 +161,15 @@ footer {
 .link-container {
   text-decoration: none;
   color: inherit;
+}
+
+.carrossel td {
+  text-align: center;
+  vertical-align: top;
+}
+.carrossel img {
+  display: block;
+  height: auto;
+  width: 120px;
+  border-radius: 8px;
 }
