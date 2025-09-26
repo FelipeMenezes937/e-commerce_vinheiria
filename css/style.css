@@ -1,7 +1,7 @@
-/* Paleta: branco (#fff), vinho (#800020), preto (#111) */
+
 
 body {
-  font-family: 'Georgia', serif;
+  font-family: 'Calibri', serif;
   background-color: #fff;
   color: #111;
   margin: 0;
@@ -22,7 +22,7 @@ header {
 
 h1 {
   font-size: 1.8rem;
-  color: #800020;
+  color: #000000;
   margin: 0;
 }
 
@@ -31,7 +31,7 @@ nav {
 }
 
 nav a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   margin: 0 10px;
 }
@@ -44,10 +44,11 @@ main {
   padding: 2rem;
 }
 
-h2 {
+h2, h3 {
   color: #2c030d;
   margin-bottom: 1rem;
 }
+
 
 ol {
   list-style-type: decimal;
@@ -80,12 +81,12 @@ ol li a:hover {
   color: #800020;
   font-size: 1.6rem;
   margin-bottom: 1rem;
-  font-family: 'Georgia', serif;
+  font-family: 'Calibri', serif;
 }
 
 .texto-destaque p {
   color: #111;
   font-size: 1rem;
-  line-height: 1.6;
-  font-family: 'Georgia', serif;
+  line-height: 1.6; /* espaçamento confortável */
+  font-family: 'Calibri', serif;
 }

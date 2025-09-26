@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comprar - Vinheiria Agnello</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="../assets/imgs/logo2.png" alt="garrafa de vinho" height="60" width="40">
+      <h1>Vinheiria Agnello</h1>
+    </div>
+    <nav>
+      <a href="../index.html">Início</a>
+      <a href="./categorias.html">Categorias</a>
+      <a href="./safras.html">Safras</a>
+      <a href="./sobre.html">Sobre Nós</a>
+      <a href="./discover.html">Descobrir</a>
+      <a href="./guia.html">Guia de Vinhos</a>
+      <a href="./contatos.html">Comprar</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="texto-destaque">
+      <h2>Comprar Vinhos</h2>
+      <p>Preencha o formulário abaixo para reservar seu vinho favorito.</p>
+
+      <!-- TABELA DE VALORES -->
+      <h3>Valores dos Vinhos</h3>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Vinho</th>
+            <th>Tipo</th>
+            <th>Preço</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Suave</td>
+            <td>Tinto</td>
+            <td>R$ 45,00</td>
+          </tr>
+          <tr>
+            <td>Bordô</td>
+            <td>Tinto</td>
+            <td>R$ 50,00</td>
+          </tr>
+          <tr>
+            <td>Espumante</td>
+            <td>Branco</td>
+            <td>R$ 70,00</td>
+          </tr>
+          <tr>
+            <td>Tinto</td>
+            <td>Seco</td>
+            <td>R$ 60,00</td>
+          </tr>
+          <tr>
+            <td>Branco</td>
+            <td>Suave</td>
+            <td>R$ 55,00</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+
+      <!-- FORMULÁRIO -->
+      <form action="#" method="">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="telefone">Telefone:</label><br>
+        <input type="tel" id="telefone" name="telefone" required><br><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="vinho">Selecione seu vinho:</label><br>
+        <select id="vinho" name="vinho" required>
+          <option value="">-- Escolha --</option>
+          <option value="suave">Suave - R$ 45,00</option>
+          <option value="bordo">Bordô - R$ 50,00</option>
+          <option value="espumante">Espumante - R$ 70,00</option>
+          <option value="tinto">Tinto - R$ 60,00</option>
+          <option value="branco">Branco - R$ 55,00</option>
+        </select><br><br>
+
+        <button type="submit">Enviar Pedido</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
