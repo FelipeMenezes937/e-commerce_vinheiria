@@ -10,8 +10,9 @@ um site html simples, para uma vinheria fictícia para fins acadêmicos
 - Tabela de preços de vinhos
 
 ## organizacao do projeto
--index.html --> trata-se da página principal, seria a "home"
--pages --> demais páginas
+- index.html → trata-se da página principal, seria a "home"
+- pages → demais páginas do projeto
+
 
 ## tecnologias empregadas 
 - HTML5
