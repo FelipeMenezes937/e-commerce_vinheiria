@@ -13,8 +13,8 @@ um site html simples, para uma vinheria fictícia para fins acadêmicos
 -index.html --> trata-se da página principal, seria a "home"
 -pages --> demais páginas
 
-#tecnologias empregadas 
--HTML5
--css3
+## tecnologias empregadas 
+- HTML5
+- CSS3
 
   
