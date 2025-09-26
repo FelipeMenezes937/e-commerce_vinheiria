@@ -15,9 +15,12 @@ header {
 }
 
 .logo-container {
+  text-decoration: none;
+  color: inherit;
   display: flex;
   align-items: center;
   gap: 10px;
+  
 }
 
 h1 {
@@ -108,11 +111,16 @@ ol li a {
 
 footer {
   background-color: #b32e2e;
-  color: #fff;
+  border-top: 2px solid #800020;
+  color: #111;
   text-align: center;
-  padding: 1rem 2rem;
+  padding: 0.0025rem 0.0025rem;
   margin-top: 2rem;
   font-size: 0.9rem;
+  position: fixed;
+    bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .compra-container {
@@ -148,4 +156,9 @@ footer {
 .img{
   width: 300px;
   height: 200px;
+}
+
+.link-container {
+  text-decoration: none;
+  color: inherit;
 }
