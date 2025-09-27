@@ -78,4 +78,4 @@ Projeto de site institucional e de e-commerce fictício para uma vinheria. Desen
 
 ## 👨‍💻 Autor
 -- **Felipe Menezes** – Desenvolvedor do projeto
-Projeto desenvolvido para fins acadêmicos/educacionais.  
+**Projeto desenvolvido para fins acadêmicos/educacionais.  **
