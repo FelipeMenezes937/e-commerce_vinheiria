@@ -9,26 +9,28 @@ Projeto de site institucional e de e-commerce fictício para uma vinheria. Desen
 ```
 .
 ├── assets
-│   ├── imgs/         # Imagens usadas no site
-│   ├── css/
-│   │   └── style.css # Estilos principais do site
-│   └── js/           # (Espaço reservado para scripts futuros)
+│ ├── imgs/ # Imagens usadas no site
+│ ├── css/
+│ │ ├──── style.css # Estilos principais do site
+│ │ ├───  compras.css # Estilos referentes a compras.html e confirma.html
+│ │ └───  vinhos.css # Estilos referentes a páginas de vinhos: bordo, suave, espumante, tinto e branco
+│ └── js/ # (Espaço reservado para scripts futuros)
 │
-├── pages             # Páginas internas
-│   ├── bordo.html
-│   ├── branco.html
-│   ├── categorias.html
-│   ├── comprar.html
-│   ├── confirma.html
-│   ├── discover.html
-│   ├── espumante.html
-│   ├── harmonizacao.html
-│   ├── safras.html
-│   ├── sobre.html
-│   ├── suave.html
-│   └── tinto.html
+├── pages # Páginas internas
+│ ├── bordo.html
+│ ├── branco.html
+│ ├── categorias.html
+│ ├── comprar.html
+│ ├── confirma.html
+│ ├── discover.html
+│ ├── espumante.html
+│ ├── harmonizacao.html
+│ ├── safras.html
+│ ├── sobre.html
+│ ├── suave.html
+│ └── tinto.html
 │
-├── index.html        # Página inicial
+├── index.html # Página inicial
 └── README.md
 ```
 
@@ -67,7 +69,7 @@ Projeto de site institucional e de e-commerce fictício para uma vinheria. Desen
 
 1. Baixe ou clone este repositório:
    ```bash
-   git clone https://github.com/usuario/vinheria-agnello.git
+   git clone https://felipemenezes937.github.io/e-commerce_vinheiria/
    ```
 2. Abra a pasta do projeto.
 3. Execute o arquivo `index.html` diretamente no navegador (clique duplo ou botão direito → abrir com...).
@@ -75,5 +77,5 @@ Projeto de site institucional e de e-commerce fictício para uma vinheria. Desen
 ---
 
 ## 👨‍💻 Autor
-
+-- **Felipe Menezes** – Desenvolvedor do projeto
 Projeto desenvolvido para fins acadêmicos/educacionais.  
