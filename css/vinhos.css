@@ -1,5 +1,5 @@
 
-/* setando as configuracoes do body*/
+/* selecionando somente oq é pertinente a area de vinhos (bordo.html, branco.html, espumante.html...) */
 body{
   font-family: 'Calibri', serif;
   background-color: #fff;
@@ -44,26 +44,7 @@ main {
   padding: 2rem;
 }
 
-h2, h3 {
-  color: #2c030d;
-  margin-bottom: 1rem;
-}
 
-
-ol {
-  list-style-type: decimal;
-  padding-left: 20px;
-}
-
-ol li {
-  margin: 0.5rem 0;
-  font-size: 1.1rem;
-}
-
-ol li a {
-  color: #111;
-  
-}
 
 
 .texto-destaque {
@@ -82,32 +63,14 @@ ol li a {
 }
 
 .texto-destaque p {
-  color: #800020;
+  color: #111;
   font-size: 1rem;
   line-height: 1.6;
   font-family: 'Calibri', serif;
 }
 
-.categoria {
-  background-color: #fff;              
-  border: 2px solid #800020;           
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
-}
 
-.categoria h3 {
-  color: #800020;                      
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-size: 1.3rem;
-}
 
-.categoria p {
-  color: #111;                         
-  line-height: 1.6;
-}
 
 footer {
   background-color: #b32e2e;
@@ -123,53 +86,13 @@ footer {
   width: 100%;
 }
 
-.compra-container {
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-  
-}
 
-.form-compras, 
-.tabela-vinhos {
-  flex: 1;
-  
-}
 
-.tabela-vinhos table {
-  border-collapse: collapse;
-  width: 100%;
-}
 
-.tabela-vinhos th, 
-.tabela-vinhos td {
-  border: 1px solid #b32e2e;
-  padding: 8px;
-  text-align: left;
-}
 
-.tabela-vinhos th {
-  background-color: #b32e2e;
-  color: #fff;
-}
 
-.img{
-  width: 300px;
-  height: 200px;
-}
 
 .link-container {
   text-decoration: none;
   color: inherit;
-}
-
-.carrossel td {
-  text-align: center;
-  vertical-align: top;
-}
-.carrossel img {
-  display: block;
-  height: auto;
-  width: 120px;
-  border-radius: 8px;
 }
