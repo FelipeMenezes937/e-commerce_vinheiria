@@ -1,6 +1,6 @@
 # 🍷 Vinheria Agnello
 
-Projeto de site institucional e de e-commerce fictício para uma vinheria. Desenvolvido em **HTML, CSS e JavaScript**, com o objetivo de treinar a criação de páginas estáticas, organização de conteúdo e navegação entre múltiplas páginas.
+Projeto de site institucional e de e-commerce fictício para uma vinheria. Desenvolvido em **HTML CSS**, com o objetivo de treinar a criação de páginas estáticas, organização de conteúdo e navegação entre múltiplas páginas.
 
 ---
 
@@ -60,22 +60,6 @@ Projeto de site institucional e de e-commerce fictício para uma vinheria. Desen
 - **CSS3** → Estilização e layout
 - **JavaScript** → (reserva para interações futuras)
 - **VS Code** → Editor de código
-
----
-
-## 📸 Pré-visualização
-
-### Página Inicial
-![Home](assets/imgs/preview-home.png)
-
-### Página de Compra
-![Compra](assets/imgs/preview-comprar.png)
-
-### Guia de Vinhos
-![Guia](assets/imgs/preview-guia.png)
-
-### Sobre Nós
-![Sobre](assets/imgs/preview-sobre.png)
 
 ---
 
