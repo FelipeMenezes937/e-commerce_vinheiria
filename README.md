@@ -82,7 +82,7 @@ Projeto de site institucional e de e-commerce fictício para uma vinheria. Desen
 
 ---
 
-## ▶️ lindo do site no Git Hub Pages
+## ▶️ link do site no Git Hub Pages
 
 
    ```bash
