@@ -136,26 +136,10 @@ footer {
   
 }
 
-.tabela-vinhos table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-.tabela-vinhos th, 
-.tabela-vinhos td {
-  border: 1px solid #b32e2e;
-  padding: 8px;
-  text-align: left;
-}
-
-.tabela-vinhos th {
-  background-color: #b32e2e;
-  color: #fff;
-}
-
 .img{
   width: 300px;
   height: 200px;
+  
 }
 
 .link-container {
