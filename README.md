@@ -65,7 +65,7 @@ Projeto de site institucional e de e-commerce fictício para uma vinheria. Desen
 
 ---
 
-## ▶️ Como Executar
+## ▶️ Como Executar localmente
 
 1. Baixe ou clone este repositório:
    ```bash
@@ -79,3 +79,15 @@ Projeto de site institucional e de e-commerce fictício para uma vinheria. Desen
 ## 👨‍💻 Autor
 -- **Felipe Menezes** – Desenvolvedor do projeto
 **Projeto desenvolvido para fins acadêmicos/educacionais.  **
+
+---
+
+## ▶️ lindo do site no Git Hub Pages
+
+
+   ```bash
+   https://felipemenezes937.github.io/e-commerce_vinheiria/
+   ```
+basta clicar ou copiar e colar na barra de pesquisa do navegador.
+
+---
