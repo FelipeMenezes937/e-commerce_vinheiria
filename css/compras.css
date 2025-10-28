@@ -1,46 +1,99 @@
-
-/* setando só o que é pertinente compras.html e confirma.html*/
-body{
+body {
   font-family: 'Calibri', serif;
   background-color: #fff;
   color: #111;
   margin: 0;
   padding: 0;
 }
+
+/* === CABEÇALHO E MENU === */
 header {
   background-color: #b32e2e;
   color: #fff;
   padding: 1rem 2rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  animation: slideDown 0.8s ease-out;
 }
-.link-container {
-  text-decoration: none;
-  color: inherit;
-}
+
+/* Logo e título */
 .logo-container {
   text-decoration: none;
   color: inherit;
   display: flex;
   align-items: center;
-  gap: 10px; /*espaco entre os itens*/
-  
+  gap: 10px;
+  transition: transform 0.3s ease;
 }
 
-h1 {
+.logo-container:hover {
+  transform: scale(1.05);
+}
+
+/* Nome principal */
+header h1 {
   font-size: 1.8rem;
-  color: #000000;
+  color: #000;
   margin: 0;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
 }
 
+header h1:hover {
+  color: #ffeaea;
+}
+
+/* Navegação */
 nav {
   margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 nav a {
-  color: #000000;
-  text-decoration: none;/*espaco entre os itens*/
-  margin: 0 10px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+  transition: color 0.3s ease;
 }
 
+/* animação sublinhada */
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.3s ease;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+/* animação de entrada do header */
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 
 h2, h3 {
   color: #2c030d;
@@ -78,40 +131,86 @@ footer {
   margin-top: 2rem;
   font-size: 0.9rem;
   position: fixed;
-    bottom: 0;
+  bottom: 0;
   left: 0;
   width: 100%;
 }
 
+/* --- CONTAINER GERAL --- */
 .compra-container {
   display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-  
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: flex-start; /* mantém o topo alinhado */
+
 }
 
-.form-compras, 
-.tabela-vinhos {
-  flex: 1;
-  
-}
-.tabela-vinhos table {
-  border-collapse: collapse;
-  width: 100%;
-}
-.tabela-vinhos th, 
-.tabela-vinhos td {
-  border: 1px solid #b32e2e;
-  padding: 8px;
-  text-align: left;
+.form-compras {
+  margin: 0 auto;          /* reforça o centramento */
+    transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+    
 }
 
-.tabela-vinhos th {
-  background-color: #b32e2e;
+.form-compras:hover {
+  transform: translateY(-2px); /* movimento menor */
+  box-shadow: 0 4px 12px rgba(128, 0, 32, 0.15); /* sombra mais difusa */
+  border-color: #a32a3a; /* leve destaque na borda */
+}
+
+.form-compras input,
+.form-compras select {
+  width: 95%;
+  padding: 0.4rem;
+  border: 1px solid #800020;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.opcoes-pagamento {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* garante que tudo fique alinhado à esquerda */
+  gap: 0.4rem;
+  margin: 0.5rem 0 1rem 1rem;
+}
+
+/* radio + texto lado a lado */
+.opcoes-pagamento label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: #2c030d;
+  font-size: 1rem;
+  font-family: 'Calibri', serif;
+  white-space: nowrap;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+.opcoes-pagamento label:hover {
+  background-color: rgba(128, 0, 32, 0.08); /* vinho clarinho translúcido */
+  color: #800020;
+}
+/* bolinha ajustada e com cor vinho */
+.opcoes-pagamento input[type="radio"] {
+  accent-color: #800020;
+  margin: 0;
+  transform: scale(1.1);
+}
+/* --- BOTÃO --- */
+.form-compras button {
+  margin-top: 1.2rem;
+  padding: 0.5rem 1.2rem;
+  background-color: #800020;
   color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.video{
-  width: 300px;
-  height: 200px;
+.form-compras button:hover {
+  background-color: #a01030;
+  transform: scale(1.05);
 }
