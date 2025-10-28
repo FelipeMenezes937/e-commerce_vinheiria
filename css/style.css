@@ -84,6 +84,9 @@ nav a:hover {
 nav a:hover::after {
   width: 100%;
 }
+nav a:nth-child(2) {
+  font-style: italic;
+}
 
 /* animação de entrada do header */
 @keyframes slideDown {
@@ -300,4 +303,12 @@ footer {
 .img-arm:hover {
   transform: skew(-3deg, -2deg) scale(1.03);
   box-shadow: 0 8px 18px rgba(128, 0, 32, 0.3);
+}
+
+input:focus {
+  border-color: #800020;
+  box-shadow: 0 0 5px #b32e2e;
+}
+button:not(:hover) {
+  opacity: 0.9;
 }
