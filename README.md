@@ -63,6 +63,26 @@ Projeto de site institucional e de e-commerce fictício para uma vinheria. Desen
 - **JavaScript** → (reserva para interações futuras)
 - **VS Code** → Editor de código
 
+O projeto recebeu aprimoramentos estéticos que reforçam a identidade visual e a experiência do usuário.  
+As mudanças nos arquivos CSS (`style.css`, `vinhos.css` e `compras.css`) buscaram manter uma linguagem visual coerente com o tema da vinheria e aprimorar a navegabilidade das páginas.
+
+### 🎨 Identidade Visual
+- **Paleta de cores:** tons de vinho, dourado e branco, evocando elegância e tradição.  
+- **Tipografia:** combinação de fontes serifadas e sans-serif, equilibrando sofisticação e legibilidade.  
+- **Bordas arredondadas e sombras suaves:** uso de `border-radius` e `box-shadow` para um visual limpo e moderno.  
+
+### 🖼️ Layout e Componentes
+- **Reestruturação de seções:** melhora na hierarquia visual e na leitura das páginas.  
+- **Cards de vinhos padronizados:** aplicação de bordas coloridas, margens equilibradas e destaque ao título.  
+- **Efeitos de interação (`hover` e `transition`):** animações sutis em botões, links e elementos clicáveis, tornando a navegação mais fluida.  
+- **Centralização e redimensionamento de imagens:** proporções ajustadas para garantir uniformidade e boa visualização em diferentes telas.  
+
+### 🧾 Formulários e Navegação
+- **Formulário de compra aprimorado:** inclusão de bordas personalizadas, espaçamento interno (`padding`) e sombra leve.  
+- **Feedback visual ao interagir com campos e botões:** cores de foco e transições que orientam o usuário sem poluir o layout.  
+- **Coerência entre páginas:** o mesmo padrão de cores, espaçamento e estilo é mantido entre as seções internas, como `comprar.html`, `vinhos.html` e `confirma.html`.  
+
+
 ---
 
 ## ▶️ Como Executar localmente
