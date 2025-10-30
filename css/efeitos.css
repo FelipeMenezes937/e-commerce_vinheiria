@@ -1,0 +1,92 @@
+.img-arm:hover {
+  transform: skew(-3deg, -2deg) scale(1.03);
+  box-shadow: 0 8px 18px rgba(128, 0, 32, 0.3);
+}
+
+.logo-container:hover {
+  transform: scale(1.05);
+}
+
+header h1:hover {
+  color: #ffeaea;
+}
+
+
+nav a:hover {
+  color: #fff;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+.carrossel td:hover img {
+  transform: scale(1.05);
+  
+}
+
+.carrossel td:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 14px rgba(128, 0, 32, 0.25);
+  border-color: #b00040;
+}
+.carrossel td:hover img {
+  transform: scale(1.05);
+}
+.item-titulo:hover {
+  color: #800020;
+  
+}
+
+button:not(:hover) {
+  opacity: 0.9;
+}
+
+input:focus {
+  border-color: #800020;
+  box-shadow: 0 0 5px #b32e2e;
+}
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.form-compras:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(128, 0, 32, 0.15);
+  border-color: #a32a3a;
+}
+
+.opcoes-pagamento label:hover {
+  background-color: rgba(128, 0, 32, 0.08);
+  color: #800020;
+}
+
+
+.form-compras button:hover {
+  background-color: #a01030;
+  transform: scale(1.05);
+}
+
+.categoria:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(128,0,32,0.25);
+  border-color: #b00040;
+}

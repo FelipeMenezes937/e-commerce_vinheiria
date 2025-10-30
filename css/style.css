@@ -1,3 +1,4 @@
+@import url("./efeitos.css");
 
 /* setando as configuracoes do body*/
 body{
@@ -30,9 +31,7 @@ header {
   transition: transform 0.3s ease;
 }
 
-.logo-container:hover {
-  transform: scale(1.05);
-}
+
 
 /* Nome principal */
 header h1 {
@@ -44,15 +43,13 @@ header h1 {
   transition: color 0.3s ease;
 }
 
-header h1:hover {
-  color: #ffeaea;
-}
+
 
 /* Navegação */
 nav {
   margin-top: 0.5rem;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   gap: 2rem;
   flex-wrap: wrap;
 }
@@ -77,43 +74,11 @@ nav a::after {
   transition: width 0.3s ease;
 }
 
-nav a:hover {
-  color: #fff;
-}
 
-nav a:hover::after {
-  width: 100%;
-}
+
 nav a:nth-child(2) {
   font-style: italic;
 }
-
-/* animação de entrada do header */
-@keyframes slideDown {
-  from {
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-
-/* animação de entrada do header */
-@keyframes slideDown {
-  from {
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-
 
 main {
   padding: 2rem;
@@ -218,8 +183,11 @@ footer {
 .img{
   width: 300px;
   height: 200px;
-  
+  transition: transform 0.3s ease;
 }
+
+
+
 
 .link-container {
   text-decoration: none;
@@ -234,6 +202,8 @@ footer {
 }
 
 .carrossel td {
+  cursor: pointer;
+  text-decoration: none;
   background-color: #fff;
   border: 2px solid #800020;
   border-radius: 10px;
@@ -244,11 +214,6 @@ footer {
   width: 180px;
 }
 
-.carrossel td:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 14px rgba(128, 0, 32, 0.25);
-  border-color: #b00040;
-}
 
 .carrossel img {
   display: block;
@@ -259,23 +224,18 @@ footer {
   transition: transform 0.3s ease;
 }
 
-.carrossel td:hover img {
-  transform: scale(1.05);
-}
 
 .item-titulo {
+  text-decoration: none !important;
   display: block;
   margin-top: 0.5rem;
-  color: #4b004b;
   font-weight: bold;
   font-size: 1rem;
+  color: #4b004b;
   transition: color 0.25s ease;
 }
 
-.item-titulo:hover {
-  color: #800020;
-  text-decoration: underline;
-}
+
 
 /* contêiner com a faixa lateral */
 .carrossel-container {
@@ -300,15 +260,5 @@ footer {
 }
 
 /* Efeito ao passar o mouse */
-.img-arm:hover {
-  transform: skew(-3deg, -2deg) scale(1.03);
-  box-shadow: 0 8px 18px rgba(128, 0, 32, 0.3);
-}
 
-input:focus {
-  border-color: #800020;
-  box-shadow: 0 0 5px #b32e2e;
-}
-button:not(:hover) {
-  opacity: 0.9;
-}
+

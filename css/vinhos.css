@@ -1,5 +1,5 @@
 @import url('style.css');
-
+@import url('efeitos.css');
 /* --- ESTILOS ESPECÍFICOS PARA AS PÁGINAS DE VINHOS --- */
 
 main {
@@ -53,11 +53,7 @@ main {
   width: 22%;
 }
 
-.categoria:hover {
-  transform: scale(1.03);
-  box-shadow: 0 6px 12px rgba(128,0,32,0.25);
-  border-color: #b00040;
-}
+
 
 .categoria h3 {
   color: #800020;
