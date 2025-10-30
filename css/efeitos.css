@@ -11,7 +11,10 @@ header h1:hover {
   color: #ffeaea;
 }
 
-
+img:hover {
+  transform: rotate(5deg);
+  transition: transform 1s ease;
+}
 nav a:hover {
   color: #fff;
 }
